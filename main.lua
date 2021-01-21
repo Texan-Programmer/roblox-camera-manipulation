@@ -5,8 +5,6 @@ local part = workspace.CameraPart
 
 -- cam script
 
-while true do
-	wait(.01)
-	camera.CameraType = Enum.CameraType.Scriptable
-	camera.CFrame = part.CFrame
-end
+camera.CameraType = Enum.CameraType.Scriptable
+camera.CFrame = part.CFrame
+
